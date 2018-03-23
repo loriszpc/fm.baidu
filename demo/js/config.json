@@ -1,0 +1,70 @@
+{
+  "song": [
+    {
+      "name": "一起来",
+      "author": "阿瑞(Ari)",
+      "producer":"中国好声音",
+      "cover":"images/singer/0.jpg",
+      "src":"music/0.mp3"
+    },
+    {
+      "name": "幸运",
+      "author": "白静晨",
+      "producer":"中国好声音",
+      "cover":"images/singer/1.jpg",
+      "src":"music/1.mp3"
+    },
+    {
+      "name": "无处安放",
+      "author": "白若溪",
+      "producer":"中国好声音",
+      "cover":"images/singer/2.jpg",
+      "src":"music/2.mp3"
+    },
+    {
+      "name": "我是不是该安静的走开",
+      "author": "曾敏杰",
+      "producer":"中国好声音",
+      "cover":"images/singer/3.jpg",
+      "src":"music/3.mp3"
+    },
+    {
+      "name": "夏洛特烦恼",
+      "author": "陈晨",
+      "producer":"中国好声音",
+      "cover":"images/singer/4.jpg",
+      "src":"music/4.mp3"
+    },
+    {
+      "name": "Bang Bang",
+      "author": "程思佳",
+      "producer":"中国好声音",
+      "cover":"images/singer/5.jpg",
+      "src":"music/5.mp3"
+    },
+    {
+      "name": "悟空",
+      "author": "单良",
+      "producer":"中国好声音",
+      "cover":"images/singer/6.jpg",
+      "src":"music/6.mp3"
+    },
+    {
+      "name": "爱情废柴",
+      "author": "侯志斌",
+      "producer":"中国好声音",
+      "cover":"images/singer/7.jpg",
+      "src":"music/7.mp3"
+    }
+
+  ],
+
+  "bg":[
+    {"desc":"默认背景","src":"../images/bg1.jpg"},
+    {"desc":"唯美","src":"../images/bg2.jpg"},
+    {"desc":"静谧","src":"../images/bg3.jpg"},
+    {"desc":"生长","src":"../images/bg4.jpg"},
+    {"desc":"收获","src":"../images/bg5.jpg"},
+    {"desc":"甜蜜","src":"../images/bg6.jpg"}
+  ]
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度音乐随心听</title>
+    <link rel="stylesheet" href="css/homework.css">
+
+</head>
+<body>
+
+<div class="container bg2">
+
+    <div class="header">
+        <div class="header_left">
+        </div>
+        <div class="header_right">
+            <a>登录</a>
+            <a><img src="images/listened.png">我听过的</a>
+            <a><img src="images/loved.png">我收藏的</a>
+            <a><img src="images/dislike.png">不喜欢的</a>
+
+            <ul class="header_corner">
+                <li>
+                    <p class="dropdownBtn">
+                        <span>普通音质</span>
+                        <i class="triangel"></i>
+                    </p>
+
+                    <div class="dropdown" style="display: none">
+                        <h4>快来体验最震撼的播放效果</h4>
+                        <ul class="list">
+                            <li><span>普通音质</span></li>
+                            <li><span>超高音质</span></li>
+                            <li><span>音质增强</span></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <p class="dropdownBtn">
+                        <span>默认背景</span>
+                        <i class="triangel"></i>
+                    </p>
+
+                    <div class="dropdown_pic" style="display: none">
+                        <h4>请点击选择要使用的背景</h4>
+                        <ul class="pic_list">
+                            <li>
+                                <img src="images/bg1s.png">
+                                <p>默认背景</p>
+                            </li>
+                            <li>
+                                <img src="images/bg2s.png">
+                                <p>唯美</p>
+                            </li>
+                            <li>
+                                <img src="images/bg3s.png">
+                                <p>静谧</p>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                        <ul class="pic_list">
+                            <li>
+                                <img src="images/bg4s.png">
+                                <p>生长</p>
+                            </li>
+                            <li>
+                                <img src="images/bg5s.png">
+                                <p>收获</p>
+                            </li>
+                            <li>
+                                <img src="images/bg6s.png">
+                                <p>甜蜜</p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+    <!--<div class="clear"></div>-->
+
+    <div class="pre">
+        <div class="pre_content">
+            <img src="images/pre_music.jpg" style="width:90px;height: 90px">
+        </div>
+        <p>他一定很爱你</p>
+        <p>阿杜</p>
+    </div>
+    <!--<div class="clear"></div>-->
+    <div class="content">
+        <div class="content_inner">
+            <div class="content_title">
+                <img src="images/listening.gif">
+                <h3>华语</h3>
+            </div>
+            <div class="content_left">
+                <img src="images/left_pic.jpg" style="width: 240px;height: 240px">
+                <h3>当你</h3>
+                <p class="album"><a>她说 概念自选辑》</a></p>
+                <p class="singer"><a>林俊杰</a></p>
+                <div class="control">
+                    <div class="control_top">
+                        <ul class="btn">
+                            <li><a style="background-position: -444px 0px;"></a></li>
+                            <li><a></a></li>
+                            <li><a></a></li>
+                            <li><a></a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="progress">
+                        <span class="line"></span>
+                    </div>
+                    <div class="control_bottom">
+
+                        <span class="curTime">00:00</span>
+                        <span>/</span>
+                        <span class="totalTime"></span>
+                        <div class="time" title="混轮控制音量">
+                            <div class="volume"></div>
+                            <div class="volume_control" style="display: none">
+                                <span class="volume_line"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <audio controls="controls" id="myAudio" autoplay="autoplay" style="display: none;">
+                <source src="music/无法逃脱_指南针.mp3" type="audio/mpeg">
+                您的浏览器不支持audio标签，请下载到最新版本
+            </audio>
+            <div class="content_right">
+                <div class="right_inner">
+                    <ul>
+                        <li class="music_title">绅士</li>
+                        <li>&nbsp;</li>
+                        <li>作词：薛之谦</li>
+                        <li>作曲：薛之谦</li>
+                        <li>演唱：薛之谦</li>
+                        <li>&nbsp;</li>
+                        <li>好久没见了什么角色呢</li>
+                        <li>细心装扮着</li>
+                        <li>白色衬衫的袖扣是你送的</li>
+                        <li>尽量表现着像不在意的</li>
+                        <li>频繁暴露了自欺欺人者</li>
+                        <li>越掩饰越深刻</li>
+                        <li>你说我说听说</li>
+                        <li>忍着言不由衷的段落</li>
+                        <li>我反正决定自己难过</li>
+                        <li>&nbsp;</li>
+                        <li>我想摸你的头发</li>
+                        <li>只是简单的试探啊</li>
+                        <li>&nbsp;</li>
+                        <li>我想给你个拥抱</li>
+                        <li>像以前一样可以吗</li>
+                        <li>你退半步的动作认真的吗</li>
+                        <li>小小的动作伤害还那么大</li>
+                        <li>我只能扮演个绅士</li>
+                        <li>才能和你说说话</li>
+                        <li>&nbsp;</li>
+                        <li>我能送你回家吗</li>
+                        <li>可能外面要下雨啦</li>
+                        <li>&nbsp;</li>
+                        <li>我能给你个拥抱</li>
+                        <li>像朋友一样可以吗</li>
+                        <li>&nbsp;</li>
+                        <li>我忍不住从背后抱了一下</li>
+                        <li>尺度掌握在不能说想你啊</li>
+                        <li>你就当刚认识的绅士</li>
+                        <li>闹了个笑话吧</li>
+                        <li>&nbsp;</li>
+                        <li>尽量表现着善解人意的</li>
+                        <li>频繁暴露了不欲人知的</li>
+                        <li>越掩饰越深刻</li>
+                        <li>想说听说别说</li>
+                        <li>忍着言不由衷的段落</li>
+                        <li>我反正注定留在角落</li>
+                        <li>&nbsp;</li>
+                        <li>我想摸你的头发</li>
+                        <li>只是简单的试探啊</li>
+                        <li>我想给你个拥抱</li>
+                        <li>像以前一样可以吗</li>
+                        <li>&nbsp;</li>
+                        <li>你退半步的动作认真的吗</li>
+                        <li>小小的动作伤害还那么大</li>
+                        <li>我只能扮演个绅士</li>
+                        <li>才能和你说说话</li>
+                        <li>&nbsp;</li>
+                        <li>我能送你回家吗</li>
+                        <li>可能外面要下雨啦</li>
+                        <li>我能给你个拥抱</li>
+                        <li>像朋友一样可以吗</li>
+                        <li>&nbsp;</li>
+                        <li>我忍不住从背后抱了一下</li>
+                        <li>尺度掌握在不能说想你啊</li>
+                        <li>你就当刚认识的绅士</li>
+                        <li>闹了个笑话吧</li>
+                        <li>&nbsp;</li>
+                        <li>你能给我只左手</li>
+                        <li>牵你到马路那头吗</li>
+                        <li>&nbsp;</li>
+                        <li>我会像以前一样</li>
+                        <li>看着来往的车子啊</li>
+                        <li>我们的距离在眉间皱了下</li>
+                        <li>迅速还原成路人的样子啊</li>
+                        <li>越有礼貌我越害怕</li>
+                        <li>绅士要放得下</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="clear"></div>
+    <div class="right_fixed_btn">
+        <i></i>
+        <span>换台</span>
+    </div>
+    <!--<div class="clear"></div>-->
+
+</div>
+
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/homework.js"></script>
+</html>
